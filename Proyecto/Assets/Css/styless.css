@@ -1,0 +1,80 @@
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+body{
+    background: linear-gradient(-180deg,rgb(0, 0, 0) , rgb(21, 26, 21) 500px);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: 9000px;
+    overflow: hidden;
+}
+.container{
+    width: 300px;
+    height: auto;
+    margin: 4em auto;
+    padding: 30px;
+    background-color: black;
+    border-top: solid 5px rgb(0, 223, 104);
+    box-shadow:  15px 15px 0px rgba(47, 47, 47, 0.513);
+    display: block;
+}
+h1{
+    color: rgb(240, 255, 255);
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+h3{
+    color: azure;
+    position: relative;
+    top: 15px;
+}
+a{
+    color: azure;
+}
+i{
+    color: aliceblue;
+}
+.quest input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 2px rgb(0, 223, 104);
+    color: azure;
+    width: 220px;
+}
+.quest .nombre,#logo1{
+    transition: 1s;
+}
+.quest .nombre:hover,#logo1:hover{
+    color: rgb(134, 255, 184);
+
+}
+.quest .contraseña,#logo2{
+    transition: 1s;
+}
+.quest .contraseña:hover,#logo2:hover{
+    color: rgb(134, 255, 184);
+}
+.iniciar{
+    font-size: 20px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 35%;
+    width: 100px;
+    height: 40px;
+    color: azure;
+    background-color: transparent;
+    border: solid 2px rgb(0, 223, 104);
+    transition: 1s;
+
+}
+
+.iniciar:hover{
+    transition: 1s;
+    border: solid 2px #fff;
+    background: rgb(0, 223, 104);
+    color: black;
+}
+

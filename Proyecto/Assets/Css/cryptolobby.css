@@ -1,0 +1,255 @@
+/* Elimina esto */
+h1{
+    font-size: 20px;
+}
+
+
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(-180deg,rgb(0, 0, 0) 0px, rgb(21, 26, 21) 200px);
+    background-position: center;
+    background-attachment: fixed;
+}
+a{
+    margin: 5px;
+    margin-left: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color: azure;
+}
+.body{
+    background-color: rgb(0, 73, 50);
+    margin: 1em auto;
+    border: solid 9px rgb(0, 36, 17);
+    width: 1207px;
+    height: 550px;
+}
+
+.Top{ 
+    color: azure;
+    background: linear-gradient( 76deg, rgba(0, 0, 0, 0.999) 900px, rgba(255, 255, 255, 0.191)1400px);
+    border-bottom: solid 5px rgb(0, 223, 104);
+    width: 100%;
+    height: 50px;
+    float: left;
+    display: flex;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+.Top a:hover{
+    color: rgb(0, 223, 104);
+    transform: scale(1.2);
+    transition: 0.5s;
+} 
+.Top #Usuario{
+    margin: auto;
+    margin-right: 5px;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.candados{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(0, 223, 104);
+    border: solid 2px rgb(0, 36, 17);
+    transition: 0.5s;
+}
+.Top .candados:hover{
+    transition: 0.5s;
+    transform: scale(2);
+}
+.Top .candados:hover{
+    transition: 0.5s;
+    color: azure;
+    background-color: rgb(0, 36, 17);
+    border: solid 2px rgb(0, 223, 104);
+}
+.Top #candado1{
+    display: block;
+}
+.Top #candado2{
+    display: none;
+}
+
+.logo{
+    background-image: url(../IMG/IUJO.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 160px;
+}
+.Left{
+    background: linear-gradient( 30deg, rgba(0, 0, 0, 0.999)310px , rgba(255, 255, 255, 0.191) 900px);
+    border-top: solid 5px rgb(0, 223, 104);
+    width: 150px;
+    height: 470px;  
+    float: left;
+}
+.Left h1{
+    color: azure;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 65px;
+}
+.Left p{
+    color: rgba(229, 229, 229, 0.496);
+    font-size: 15px;
+    text-align: initial;
+    line-height: 15px;
+    margin-bottom: 10px;
+    margin: 1em;
+}
+.Right {
+    color: azure;
+    width: 1050px;
+    height: 470px;
+    background: linear-gradient( 30deg, rgba(0, 0, 0, 0.999) 200px, rgba(255, 255, 255, 0.191));
+    border-top: solid 5px rgb(0, 223, 104);
+    float: left;    
+    margin-left: 5px;
+    position: relative;
+}
+.Right h1{
+    text-align: center;
+}
+.precio{
+    color: rgb(0, 223, 104);
+}
+.imagenes{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 68px;
+    list-style:  none;
+    display: grid;
+    grid-template-columns: repeat(5,201px);
+    
+}
+.imagenes img{
+    width: 90px;
+    height: 90px;
+
+}
+.imagenes img:nth-child(1){
+    margin-bottom: 160px;
+   
+}
+
+
+.monedas{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 130px;
+    margin-left: 42px;
+    
+}
+.monedas ol{
+    
+    list-style:  none;
+    display: grid;
+    grid-template-columns: repeat(5,201px);
+    
+   
+}
+.monedas ol li{
+    width: 142px;
+    text-align: center;
+}
+
+.monedas ol li:nth-child(1){
+    margin-bottom: 200px;
+   
+}
+.monedas ol li:nth-child(7){
+    width: 132px;
+    text-align: center;
+}
+.bolivares{
+    color: rgb(216, 76, 76);
+}
+
+/* Footer */
+.pie-pagina{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: -200px;
+    background-color: #00534c97;
+    z-index: 3;
+}
+.pie-pagina .grupo6{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo6 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.pie-pagina .grupo6 .box figure img{
+    width: 150px;
+}
+.pie-pagina .grupo6 .box h2{
+    color: aliceblue;
+    margin-bottom: 25px;
+    font-size: 20px;
+  
+}
+.pie-pagina .grupo6 .box p{
+    color: antiquewhite;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.pie-pagina .grupo6 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    width: 40px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 10px;
+    color: rgb(0, 7, 14);
+    margin-right: 10px;
+    background-color: #00ffb3;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo6 .red-social a:hover{
+    color: rgb(255, 255, 255);
+}
+.pie-pagina .grupo5{
+    background-color: #00ffae6b;
+    padding: 15px 10px;
+    text-align: center;
+    color: #0a141d;
+}
+.pie-pagina .grupo5 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px) {
+        .pie-pagina .grupo6{
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+            padding: 35px 0px;
+        }
+}
+/* COLORES
+    #229ca1
+    #3fb5b9
+    #5cced0
+    #79e6e8
+    #96ffff
+*/

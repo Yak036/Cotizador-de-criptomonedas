@@ -1,0 +1,193 @@
+h1{
+    font-size: 20px;
+}
+
+
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(-180deg,rgb(0, 0, 0) 0px, rgb(21, 26, 21) 200px);
+    background-position: center;
+    background-attachment: fixed;
+}
+a{
+    margin: 5px;
+    margin-left: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color: azure;
+}
+.body{
+    background-color: rgb(0, 73, 50);
+    margin: 1em auto;
+    border: solid 9px rgb(0, 36, 17);
+    width: 1207px;
+    height: 550px;
+}
+
+.Top{ 
+    color: azure;
+    background: linear-gradient( 76deg, rgba(0, 0, 0, 0.999) 900px, rgba(255, 255, 255, 0.191)1400px);
+    border-bottom: solid 5px rgb(0, 223, 104);
+    width: 100%;
+    height: 50px;
+    float: left;
+    display: flex;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+.Top #Usuario{
+    margin: auto;
+    margin-right: 5px;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.candados{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(0, 223, 104);
+    border: solid 2px rgb(0, 36, 17);
+    transition: 0.5s;
+}
+.Top .candados:hover{
+    transition: 0.5s;
+    transform: scale(2);
+}
+.Top .candados:hover{
+    transition: 0.5s;
+    color: azure;
+    background-color: rgb(0, 36, 17);
+    border: solid 2px rgb(0, 223, 104);
+}
+.Top #candado1{
+    display: block;
+}
+.Top #candado2{
+    display: none;
+    transition: 0.5s;
+}
+.Top a:hover{
+    color: rgb(0, 223, 104);
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.logo{
+    background-image: url(../IMG/IUJO.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 160px;
+}
+
+.containercotizacion{
+    margin-top: 6.5em;
+    margin-left: 5em;
+    background: linear-gradient( 76deg, rgba(0, 0, 0, 0.999) 190px, rgba(255, 255, 255, 0.191)800px);
+    border-top: solid 5px rgb(0, 223, 104);
+    width: 410px;
+    height: 400px;
+    color: azure;
+    display: block;
+    box-shadow: 0px 0px 10px rgb(0, 26, 3);
+}
+.cotizacion{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: rgb(1, 42, 20);
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color:azure;
+    cursor:pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+ }
+ select::-ms-expand {
+    display: none;
+ }
+ .cotizacion {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #0effff;
+    overflow: hidden;
+    border-radius: .25em;
+ }
+ .cotizacion::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #000000;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+ }
+ .cotizacion:hover::after {
+    color: #23b499;
+ }
+
+ #mostrarmoneda{
+    margin-left: 30px;
+    margin-top: 10px;
+ }
+.titulo1{
+    font-size: 30px;
+    line-height: 10px;
+}
+.cambio24h,.cambio1h{
+    color: rgb(255, 187, 187);
+}
+.precio{
+    color: rgb(0, 255, 123);
+ }
+#cotizar{
+    position: relative;
+    top: -60px;
+    left: 180px;
+    width: 220px;
+    height: 50px;
+    font-size: 35px;
+    background-color: rgb(0, 255, 123);
+    border: solid 5px rgb(1, 42, 20);
+    transition: 0.5s;
+}
+#cotizar:hover{
+    background-color:rgb(1, 42, 20) ;
+    border: solid 5px rgb(0, 255, 123);
+    color: azure;
+}
+
+.containerimg{
+    display: block;
+    position: relative;
+    top: -390px;
+    left: 540px;
+
+    width: 650px;
+    height: 300px;
+}
+img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 40px;
+}
+
